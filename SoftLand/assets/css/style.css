@@ -1210,17 +1210,26 @@ section {
 }
 
 
-.user-type-section {
-  display: none;
-}
 
-/* #users-section, #psychologists-section {
-  display: none;
-} */
 
-.active {
+
+#physiologists-section.active{
   display: block;
 }
+#users-section.active{
+  display: block;
+}
+
+
+.user-type-section{
+  display: none;
+}
+.user-type-section.active{
+  display: block;
+}
+
+
+
 
 .user-type-btn {
   cursor: pointer;
@@ -1262,4 +1271,8 @@ section {
 
 .swiper-pagination {
   margin-top: 10px;
+}
+
+#main{
+  background-color: #aee5fc;
 }
