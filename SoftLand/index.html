@@ -125,7 +125,7 @@
 
   <div id="users-section" class="user-type-section active">
 
-    <section id="main" class="features">
+    <section  class="features">
       <div class="container">
 
         <div class="section-title">
@@ -188,13 +188,13 @@
 
       </div>
     </section>
-    <section id="faq" class="faq section-bg section">
+    <section id="main-1" class="faq section-bg section">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
 
-          <h2 class="section-heading-u">Frequently Asked Questions</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius
+          <h2 class="text-secondary">Frequently Asked Questions</h2>
+          <p class="text-dark">Magnam dolores commodi suscipit. Necessitatibus eius
             consequatur ex aliquid fuga eum quidem. Sit sint consectetur
             velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit
             suscipit alias ea. Quia fugiat sit in iste officiis commodi
@@ -289,7 +289,7 @@
     </section>
   </div>
   <div id="psychologists-section" class="user-type-section">
-    <section id="main-1" class="features">
+    <section  class="features">
       <div class="container">
 
         <div class="section-title">
@@ -353,13 +353,13 @@
       </div>
     </section>
 
-    <section id="faq" class="faq section-bg section">
+    <section id="main" class="faq section-bg section">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
 
-          <h2 class="section-heading">Frequently Asked Questions</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius
+          <h2 class="text-light">Frequently Asked Questions</h2>
+          <p class="text-dark">Magnam dolores commodi suscipit. Necessitatibus eius
             consequatur ex aliquid fuga eum quidem. Sit sint consectetur
             velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit
             suscipit alias ea. Quia fugiat sit in iste officiis commodi
@@ -711,12 +711,13 @@
         $('#u').addClass('bg-secondary');
         document.getElementById('main-1').style.backgroundColor = '#D3A3F1';
         document.getElementById('header').style.backgroundColor = '#aee5fc'
-
+        document.getElementsByClassName('hero-section')[0].style.background= '#aee5fc';
       } else {
         $('#users').addClass('active');
         $('#p').addClass('bg-secondary');
         document.getElementById('main').style.backgroundColor = '#aee5fc'
         document.getElementById('header').style.backgroundColor = '#D3A3F1';
+        document.getElementsByClassName('hero-section')[0].style.background= '#D3A3F1';
 
 
       }

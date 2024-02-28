@@ -713,6 +713,18 @@ section {
   float: left;
   color: #8ADCFF;
 }
+.features .content .icon-box:hover{
+  background-color: #f3e3fd;
+  border-radius: 10px;
+  color: white;
+}
+.features .content .icon-box-p:hover{
+  background-color: #e2f6ff;
+  border-radius: 10px;
+
+  color: gray;
+}
+
 
 .features .content .icon-box p {
   font-size: 15px;
@@ -991,6 +1003,7 @@ section {
 .hero-section {
   background: linear-gradient(-45deg, #D3A3F1, #8ADCFF), url(../img/hero-bg.jpg);
   position: relative;
+
 }
 
 .hero-section .wave {
