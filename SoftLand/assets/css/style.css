@@ -1091,6 +1091,14 @@ section {
   box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
   border-radius: 30px;
 }
+.install img{
+ transform: scale(1.5);  
+ animation: forwards;
+
+}
+#phone-1{
+  z-index: 1;
+}
 
 @media screen and (max-width: 992px) {
 
